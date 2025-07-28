@@ -49,13 +49,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-0.25 px-[12vw] md:px-[7vw] lg:px-[20vw]"
+      className="flex flex-col items-center justify-center px-[10vw] md:px-[7vw] lg:px-[20vw]"
     >
       {/* Toast Container */}
       <ToastContainer />
 
       {/* Section Title */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-6">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
